@@ -1,0 +1,70 @@
+/*color and style of openeddoors title bacground=lightbluegrey*/
+
+body{
+  background-color: #95B8E1
+}
+/*color and style text:"openeddoors"=dark blue*/
+header h1{
+  color: #0A2C43;
+  font-family: "Copperplate/Copperplate Gothic Light", monospace;
+  text-align: left;
+  font-size: 380%;
+}
+/*color and text size for"name*/
+header h2{
+  color:#0A2C43;
+  font-family: "Copperplate/Copperplate Gothic Light", monospace;
+  text-align: left;
+  font-size: 200%;
+}
+/*the background=lighter grey*/
+header{
+  font-family: "Copperplate/Copperplate Gothic Light", monospace;
+  background-color: #d3d3d3;
+  width:auto;
+  padding-top:5%;
+  height:20%;
+  margin: 5;
+/*  border-bottom:# 20px solid;*/
+}
+/*top middle nav bar*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width:100%;
+}
+
+li {
+  float: left;
+  padding-left: 200px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 150%;
+}
+
+li a:hover {
+  background-color: #111;
+}
+/*first slide=mission statement*/
+.parallax h1{
+  color: #0A2C43;
+  font-family: "Copperplate/Copperplate Gothic Light", monospace;
+  text-align: center;
+  font-size: 250%;
+}
+/*mission statement quote*/
+.parallax h2{
+  color: #0A2C43;
+  font-family: "Copperplate/Copperplate Gothic Light", monospace;
+  text-align: center;
+  font-size: 200%;
+}
